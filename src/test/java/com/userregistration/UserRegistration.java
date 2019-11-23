@@ -18,4 +18,17 @@ public class UserRegistration {
             }
 
     }
+
+    public boolean validLastName(String lastName) {
+        Pattern pattern=Pattern.compile("^[A-Z]{1}[a-z]{2,}");
+        Matcher matcher=pattern.matcher(lastName);
+        if(matcher.matches())
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
 }
