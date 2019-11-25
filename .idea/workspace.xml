@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6df9f02-fb00-4160-b7a6-d4e88b8b3d2a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/userregistration/TestCaseForvalidEmails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/userregistration/TestCaseForvalidEmails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/userregistration/TestUserRegistration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/userregistration/TestUserRegistration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/userregistration/UserRegistration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/userregistration/UserRegistration.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +60,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestUserRegistration.toTest_ValidMobileNumberGivesTenDigitNumber_ReturnTesPass">
+  <component name="RunManager" selected="Android JUnit.TestCaseForvalidEmails.Test">
     <configuration name="TestCaseForvalidEmails.Test" type="AndroidJUnit" temporary="true" nameIsGenerated="true">
       <module name="TestRegistration.test" />
       <extension name="coverage">
@@ -144,8 +147,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestUserRegistration.toTest_ValidMobileNumberGivesTenDigitNumber_ReturnTesPass" />
         <item itemvalue="Android JUnit.TestCaseForvalidEmails.Test" />
+        <item itemvalue="JUnit.TestUserRegistration.toTest_ValidMobileNumberGivesTenDigitNumber_ReturnTesPass" />
         <item itemvalue="Gradle.TestUserRegistration" />
         <item itemvalue="Android JUnit.TestUserRegistration.toTest_FirstNameGivesAllAreValid_ReturnTestPass" />
         <item itemvalue="Android JUnit.TestUserRegistration.toTest_FirstNameGivesLattersAndNumericValue_ReturnTestFail" />

@@ -50,7 +50,8 @@ public class TestCaseForvalidEmails{
                     {"abc.@g.com",false},
                     {"abc@abc@gmail.com",false},
                     {"abc@a.com.21a",false},
-                    {"abc@g.cim.au.au",false}};
+                    {"abc@g.cim.au.au",false},
+                    {"abc.@.com",false}};
 
             return Arrays.asList(data);
         }
