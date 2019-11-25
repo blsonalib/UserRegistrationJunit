@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6df9f02-fb00-4160-b7a6-d4e88b8b3d2a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/userregistration/TestCaseForvalidEmails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/userregistration/TestCaseForvalidEmails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/userregistration/TestUserRegistration.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/userregistration/TestUserRegistration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/userregistration/UserRegistration.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/userregistration/UserRegistration.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/userregistration/TestUserRegistration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/userregistration/TestUserRegistration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/userregistration/UserRegistration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/userregistration/UserRegistration.java" afterDir="false" />
     </list>
@@ -60,7 +68,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Android JUnit.TestCaseForvalidEmails.Test">
+  <component name="RunManager" selected="Gradle.TestUserRegistration">
     <configuration name="TestCaseForvalidEmails.Test" type="AndroidJUnit" temporary="true" nameIsGenerated="true">
       <module name="TestRegistration.test" />
       <extension name="coverage">
@@ -72,38 +80,6 @@
       <option name="PACKAGE_NAME" value="com.userregistration" />
       <option name="MAIN_CLASS_NAME" value="com.userregistration.TestCaseForvalidEmails" />
       <option name="METHOD_NAME" value="Test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestUserRegistration.toTest_FirstNameGivesAllAreValid_ReturnTestPass" type="AndroidJUnit" temporary="true" nameIsGenerated="true">
-      <module name="TestRegistration.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.userregistration.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.userregistration" />
-      <option name="MAIN_CLASS_NAME" value="com.userregistration.TestUserRegistration" />
-      <option name="METHOD_NAME" value="toTest_FirstNameGivesAllAreValid_ReturnTestPass" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestUserRegistration.toTest_FirstNameGivesLattersAndNumericValue_ReturnTestFail" type="AndroidJUnit" temporary="true" nameIsGenerated="true">
-      <module name="TestRegistration.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.userregistration.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.userregistration" />
-      <option name="MAIN_CLASS_NAME" value="com.userregistration.TestUserRegistration" />
-      <option name="METHOD_NAME" value="toTest_FirstNameGivesLattersAndNumericValue_ReturnTestFail" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -129,6 +105,22 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="TestUserRegistration.toTest_ValidMobileNumberGivesCountryCodeOnlyOneNumber_ReturnTestFail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestRegistration.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.userregistration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.userregistration" />
+      <option name="MAIN_CLASS_NAME" value="com.userregistration.TestUserRegistration" />
+      <option name="METHOD_NAME" value="toTest_ValidMobileNumberGivesCountryCodeOnlyOneNumber_ReturnTestFail" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestUserRegistration.toTest_ValidMobileNumberGivesTenDigitNumber_ReturnTesPass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestRegistration.test" />
       <extension name="coverage">
@@ -145,13 +137,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestUserRegistration.toTest_ValidMobileNumberGiveslessThanTenDigitNumber_ReturnTestPass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestRegistration.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.userregistration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.userregistration" />
+      <option name="MAIN_CLASS_NAME" value="com.userregistration.TestUserRegistration" />
+      <option name="METHOD_NAME" value="toTest_ValidMobileNumberGiveslessThanTenDigitNumber_ReturnTestPass" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Android JUnit.TestCaseForvalidEmails.Test" />
-        <item itemvalue="JUnit.TestUserRegistration.toTest_ValidMobileNumberGivesTenDigitNumber_ReturnTesPass" />
         <item itemvalue="Gradle.TestUserRegistration" />
-        <item itemvalue="Android JUnit.TestUserRegistration.toTest_FirstNameGivesAllAreValid_ReturnTestPass" />
-        <item itemvalue="Android JUnit.TestUserRegistration.toTest_FirstNameGivesLattersAndNumericValue_ReturnTestFail" />
+        <item itemvalue="JUnit.TestUserRegistration.toTest_ValidMobileNumberGivesTenDigitNumber_ReturnTesPass" />
+        <item itemvalue="JUnit.TestUserRegistration.toTest_ValidMobileNumberGiveslessThanTenDigitNumber_ReturnTestPass" />
+        <item itemvalue="JUnit.TestUserRegistration.toTest_ValidMobileNumberGivesCountryCodeOnlyOneNumber_ReturnTestFail" />
+        <item itemvalue="Android JUnit.TestCaseForvalidEmails.Test" />
       </list>
     </recent_temporary>
   </component>

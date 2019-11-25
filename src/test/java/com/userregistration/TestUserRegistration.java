@@ -86,5 +86,28 @@ public class TestUserRegistration {
         boolean lname=lastName.validFirstName("B3gs534");
         Assert.assertFalse(lname);
     }
+    //for Mobile Number
+
+    @Test
+    public void toTest_ValidMobileNumberGivesTenDigitNumber_ReturnTestPass(){
+        UserRegistration mobileNumber=new UserRegistration();
+        boolean mobNumber=mobileNumber.validMobileNumber("915 8835678856");
+        Assert.assertTrue(mobNumber);
+
+    }
+
+    @Test
+    public void toTest_ValidMobileNumberGiveslessThanTenDigitNumber_ReturnTestFail() {
+        UserRegistration mobileNumber = new UserRegistration();
+        boolean mobNumber = mobileNumber.validMobileNumber("98 88356787");
+        Assert.assertFalse(mobNumber);
+
+    }
+        @Test
+        public void toTest_ValidMobileNumberGivesCountryCodeOnlyOneNumber_ReturnTestFail(){
+            UserRegistration mobileNumber=new UserRegistration();
+            boolean mobNumber=mobileNumber.validMobileNumber("9 8835678789");
+            Assert.assertFalse(mobNumber);
+        }
 
 }
