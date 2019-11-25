@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6df9f02-fb00-4160-b7a6-d4e88b8b3d2a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/userregistration/TestCaseForPassword.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -10,9 +11,12 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/userregistration/TestUserRegistration.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/userregistration/TestUserRegistration.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/userregistration/UserRegistration.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/userregistration/UserRegistration.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/userregistration/TestUserRegistration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/userregistration/TestUserRegistration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.userregistration.TestUserRegistration.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.userregistration.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/com.userregistration.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.userregistration.TestUserRegistration.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/userregistration/UserRegistration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/userregistration/UserRegistration.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -68,22 +72,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.TestUserRegistration">
-    <configuration name="TestCaseForvalidEmails.Test" type="AndroidJUnit" temporary="true" nameIsGenerated="true">
-      <module name="TestRegistration.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.userregistration.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.userregistration" />
-      <option name="MAIN_CLASS_NAME" value="com.userregistration.TestCaseForvalidEmails" />
-      <option name="METHOD_NAME" value="Test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+  <component name="RunManager" selected="Gradle.TestCaseForPassword">
+    <configuration name="TestCaseForPassword" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.userregistration.TestCaseForPassword&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
     </configuration>
     <configuration name="TestUserRegistration" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -155,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.TestCaseForPassword" />
         <item itemvalue="Gradle.TestUserRegistration" />
         <item itemvalue="JUnit.TestUserRegistration.toTest_ValidMobileNumberGivesTenDigitNumber_ReturnTesPass" />
         <item itemvalue="JUnit.TestUserRegistration.toTest_ValidMobileNumberGiveslessThanTenDigitNumber_ReturnTestPass" />
         <item itemvalue="JUnit.TestUserRegistration.toTest_ValidMobileNumberGivesCountryCodeOnlyOneNumber_ReturnTestFail" />
-        <item itemvalue="Android JUnit.TestCaseForvalidEmails.Test" />
       </list>
     </recent_temporary>
   </component>

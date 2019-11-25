@@ -48,4 +48,17 @@ public class UserRegistration {
             return false;
         }
     }
+
+    public Boolean validatePassword(String password) {
+        Pattern pattern=Pattern.compile("((?=.*[0-9])(?=.*[a-z]*)(?=.*[A-Z])(?=.*[@#$%]).{8,})");
+        Matcher matcher=pattern.matcher(password);
+        if(matcher.matches())
+        {
+            return  true;
+        }
+        else
+        {
+            return false;
+        }
+    }
 }
