@@ -10,14 +10,15 @@ import java.util.Arrays;
 import java.util.Collection;
 
 @RunWith(Parameterized.class)
-public class TestCaseForvalidEmails {
+public class TestCaseForvalidEmails{
 
 
         private String argument;
         private static UserRegistration userregistration;
         private boolean expectedValidation;
 
-        public TestCaseForvalidEmails(String argument, boolean expectedValidation)
+        public TestCaseForvalidEmails
+                (String argument, boolean expectedValidation)
         {
             this.argument = argument;
             this.expectedValidation = expectedValidation;

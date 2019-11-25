@@ -86,13 +86,5 @@ public class TestUserRegistration {
         boolean lname=lastName.validFirstName("B3gs534");
         Assert.assertFalse(lname);
     }
-    @Test
-    public void toTest_ValidMobileNumberGivesTenDigitNumber_ReturnTesPass(){
-        UserRegistration mobileNumber=new UserRegistration();
-        boolean mobNumber=mobileNumber.validMobileNumber("915 8835678856");
-
-    }
-
-
 
 }

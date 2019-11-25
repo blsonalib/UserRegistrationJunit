@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6df9f02-fb00-4160-b7a6-d4e88b8b3d2a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/userregistration/TestUserRegistration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/userregistration/TestUserRegistration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/userregistration/UserRegistration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/userregistration/UserRegistration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/userregistration/TestCaseForvalidEmails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/userregistration/TestCaseForvalidEmails.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +57,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Android JUnit.TestCaseForvalidEmails.Test">
+  <component name="RunManager" selected="JUnit.TestUserRegistration.toTest_ValidMobileNumberGivesTenDigitNumber_ReturnTesPass">
     <configuration name="TestCaseForvalidEmails.Test" type="AndroidJUnit" temporary="true" nameIsGenerated="true">
       <module name="TestRegistration.test" />
       <extension name="coverage">
@@ -129,7 +126,7 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="TestUserRegistration.toTest_FirstNameGivesLattersAndNumericValue_ReturnTestFail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestUserRegistration.toTest_ValidMobileNumberGivesTenDigitNumber_ReturnTesPass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestRegistration.test" />
       <extension name="coverage">
         <pattern>
@@ -139,7 +136,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.userregistration" />
       <option name="MAIN_CLASS_NAME" value="com.userregistration.TestUserRegistration" />
-      <option name="METHOD_NAME" value="toTest_FirstNameGivesLattersAndNumericValue_ReturnTestFail" />
+      <option name="METHOD_NAME" value="toTest_ValidMobileNumberGivesTenDigitNumber_ReturnTesPass" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -147,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestUserRegistration.toTest_ValidMobileNumberGivesTenDigitNumber_ReturnTesPass" />
         <item itemvalue="Android JUnit.TestCaseForvalidEmails.Test" />
         <item itemvalue="Gradle.TestUserRegistration" />
         <item itemvalue="Android JUnit.TestUserRegistration.toTest_FirstNameGivesAllAreValid_ReturnTestPass" />
         <item itemvalue="Android JUnit.TestUserRegistration.toTest_FirstNameGivesLattersAndNumericValue_ReturnTestFail" />
-        <item itemvalue="JUnit.TestUserRegistration.toTest_FirstNameGivesLattersAndNumericValue_ReturnTestFail" />
       </list>
     </recent_temporary>
   </component>
