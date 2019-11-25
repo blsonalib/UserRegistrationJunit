@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6df9f02-fb00-4160-b7a6-d4e88b8b3d2a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.userregistration.TestUserRegistration.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.userregistration.TestUserRegistration.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.userregistration.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/com.userregistration.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.userregistration.TestUserRegistration.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.userregistration.TestUserRegistration.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/userregistration/TestUserRegistration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/userregistration/TestUserRegistration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/userregistration/UserRegistration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/userregistration/UserRegistration.java" afterDir="false" />
     </list>
@@ -22,6 +17,16 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -55,7 +60,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.TestUserRegistration">
+  <component name="RunManager" selected="Android JUnit.TestCaseForvalidEmails.Test">
+    <configuration name="TestCaseForvalidEmails.Test" type="AndroidJUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestRegistration.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.userregistration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.userregistration" />
+      <option name="MAIN_CLASS_NAME" value="com.userregistration.TestCaseForvalidEmails" />
+      <option name="METHOD_NAME" value="Test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestUserRegistration.toTest_FirstNameGivesAllAreValid_ReturnTestPass" type="AndroidJUnit" temporary="true" nameIsGenerated="true">
       <module name="TestRegistration.test" />
       <extension name="coverage">
@@ -126,6 +147,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Android JUnit.TestCaseForvalidEmails.Test" />
         <item itemvalue="Gradle.TestUserRegistration" />
         <item itemvalue="Android JUnit.TestUserRegistration.toTest_FirstNameGivesAllAreValid_ReturnTestPass" />
         <item itemvalue="Android JUnit.TestUserRegistration.toTest_FirstNameGivesLattersAndNumericValue_ReturnTestFail" />
@@ -151,7 +173,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
